@@ -1,0 +1,60 @@
+.fullScreen .selector {
+  display: none !important;
+}
+.fullScreen .containerComponent,
+.fullScreen .component {
+  border: none !important;
+}
+.selector {
+  display: none;
+}
+.component:hover .selector,
+.containerComponent:hover .selector {
+  display: block;
+}
+.settings div {
+  display: flex;
+  padding: 10px 0;
+}
+.settings div label {
+  width: 70%;
+}
+.settings div input {
+  width: 30%;
+}
+.toolbox {
+  flex-basis: 15%;
+  min-height: 700px;
+  background: #eee;
+  border: 2px solid #000;
+}
+.settings {
+  flex-basis: 20%;
+  min-height: 700px;
+  border: 2px solid #000;
+  background: #eee;
+}
+.undoredo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.canvas {
+  flex-basis: 60%;
+  max-height: 700px;
+  border: 2px solid #000;
+  background: #eee;
+  position: relative;
+  overflow-y: scroll;
+  padding: 20px 0;
+}
+@media (min-width: 1450px) and (max-width: 1600px) {
+  .canvas {
+    flex-basis: 55%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1450px) {
+  .canvas {
+    flex-basis: 45%;
+  }
+}
