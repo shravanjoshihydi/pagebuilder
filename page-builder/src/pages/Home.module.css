@@ -28,7 +28,7 @@
   background: #eee;
   border: 2px solid #000;
 }
-.settings {
+.settingslist {
   flex-basis: 20%;
   min-height: 700px;
   border: 2px solid #000;
@@ -40,17 +40,17 @@
   flex-wrap: wrap;
 }
 .canvas {
-  flex-basis: 60%;
+  flex-basis: 55%;
   max-height: 700px;
   border: 2px solid #000;
   background: #eee;
-  position: relative;
+  position: relative;  
   overflow-y: scroll;
   padding: 20px 0;
 }
 @media (min-width: 1450px) and (max-width: 1600px) {
   .canvas {
-    flex-basis: 55%;
+    flex-basis: 50%;
   }
 }
 @media (min-width: 1200px) and (max-width: 1450px) {
