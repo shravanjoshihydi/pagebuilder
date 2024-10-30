@@ -104,7 +104,7 @@ const Home = () => {
             </div>
           </div>
           <div className={`canvas ${HomeStyles.canvas}`}>{content}</div>
-          <div className={`settingslist ${HomeStyles.settings}`} >
+          <div className={`settingslist ${HomeStyles.settingslist}`} >
             <div style={{ backgroundColor: "#eee", padding: "10px" }}>
               <SettingsPanel />
             </div>
